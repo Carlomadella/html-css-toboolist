@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #F6F8FA;
+}
+
 /* INIZIO HEADER */
 .inline{
     display: inline-block;
@@ -12,11 +17,52 @@
 .dashboard {
     height: 100px;
     font-size: 25px;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     background-color: #fff;
 }
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+.container{
+    height: 1200px;
+    margin: 0px 200px 10px 200px;
+    padding: 20px 50px ;
+    background-color: white;
+    border-radius: 10px;
+}
+
+main{
+    padding: 50px 20px;
+    margin-top: 50px;
+
+    
+}
+
+.round{
+    border-radius: 5px;
+}
+
+.first-buttons{
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.blue-button{
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    background-color: #47ABF1;
+    color: #fff;
+    
+}
+
+.white-button{
+    display: inline-block;
+    width: 100px; 
+    height: 30px;  
+    background-color: #fff;
+    border: 1px solid rgb(106, 104, 104);
+    color: grey;
+}
 
 
