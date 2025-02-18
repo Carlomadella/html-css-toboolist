@@ -16,6 +16,7 @@ body{
 
 .dashboard {
     height: 100px;
+    width: auto;
     font-size: 25px;
     margin: 20px 20px 0px 20px;
     background-color: #fff;
@@ -26,7 +27,7 @@ body{
 .container{
     height: 1200px;
     margin: 0px 200px 10px 200px;
-    padding: 20px 50px ;
+    padding: 20px 50px;
     background-color: white;
     border-radius: 10px;
 }
@@ -34,9 +35,9 @@ body{
 main{
     padding: 50px 20px;
     margin-top: 50px;
-
-    
 }
+
+/* primi bottoni */
 
 .round{
     border-radius: 5px;
@@ -63,6 +64,34 @@ main{
     background-color: #fff;
     border: 1px solid rgb(106, 104, 104);
     color: grey;
+}
+
+/* fine primi bottoni */
+
+/* inizio prima lista */
+
+li{
+    padding: 10px 30px;
+    list-style-type: none;
+}
+
+.first-list{
+    padding: 10px;
+}
+
+.triangolino{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.new-task{
+    display: inline-block;
+    width: 150px;
+}
+
+.second-item{
+    display: inline-block;
+    
 }
 
 
