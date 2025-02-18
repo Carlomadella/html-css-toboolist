@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* INIZIO HEADER */
+.inline{
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.dashboard {
+    height: 100px;
+    font-size: 25px;
+    margin: 20px;
+    background-color: #fff;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+
