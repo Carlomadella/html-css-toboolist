@@ -65,6 +65,8 @@ main{
     color: grey;
 }
 
+
+
 /* fine primi bottoni */
 
 /* inizio prima lista */
@@ -111,6 +113,68 @@ li{
     vertical-align: middle;
 }
 
+.editorial{
+    display: inline-block;
+    height: 20px;
+    width: 80px ;
+    background-color: #4AA8EB;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
 
+.q1-goals{
+    display: inline-block;
+    height: 20px;
+    width: 80px ;
+    background-color: #9A74E0;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
 
+.recruiting{
+    display: inline-block;
+    height: 20px;
+    width: 80px ;
+    background-color: #60C4A9;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
 
+.mobile{
+    display: inline-block;
+    height: 20px;
+    width: 80px ;
+    background-color: #F89A36;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
+
+.website{
+    display: inline-block;
+    height: 20px;
+    width: 80px ;
+    background-color: #D6659F;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
+
+.sales{
+    display: inline-block;
+    height: 20px;
+    width: 80px ;
+    background-color: #B0CA2B;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
