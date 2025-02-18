@@ -11,14 +11,14 @@ body{
 /* INIZIO HEADER */
 .inline{
     display: inline-block;
-    vertical-align: middle; 
+    vertical-align: middle;
+    padding: 20px 0 0 20px; 
 }
 
 .dashboard {
     height: 100px;
     width: auto;
     font-size: 25px;
-    margin: 20px 20px 0px 20px;
     background-color: #fff;
 }
 /* FINE HEADER */
@@ -26,14 +26,14 @@ body{
 /* INIZIO MAIN */
 .container{
     height: 1200px;
-    margin: 0px 200px 10px 200px;
+    margin: 0px 100px 10px 200px;
     padding: 20px 50px;
     background-color: white;
     border-radius: 10px;
 }
 
 main{
-    padding: 50px 20px;
+    padding: 0px 20px;
     margin-top: 50px;
 }
 
@@ -44,7 +44,6 @@ main{
 }
 
 .first-buttons{
-    margin-left: 50px;
     vertical-align: middle;
 }
 
@@ -75,8 +74,12 @@ li{
     list-style-type: none;
 }
 
+.lista{
+    margin-top: 40px;
+}
+
 .first-list{
-    padding: 10px;
+    padding: 20px;
 }
 
 .triangolino{
@@ -84,14 +87,30 @@ li{
     margin-right: 5px;
 }
 
-.new-task{
+.spunta-verde{
     display: inline-block;
-    width: 150px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.second-item{
+.x-rossa{
     display: inline-block;
-    
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
 }
+
+
 
 
